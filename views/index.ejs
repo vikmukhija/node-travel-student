@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+
+		<title>Vik's First Website</title>
+
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+
+	<h1>My Non-African Adventures!</h1>
+
+	<%
+		for (var i = 0; i < locations.length; i++) {
+			var location = locations[i];
+	%>
+		<div>
+			<h2 class="photo">Capetown</h2>
+			<a href="http://en.wikipedia.org/wiki/Cape_Town" target="_blank"><img src="images/capetown.jpg"/></a>
+			<p>I've never been to Capetown!</p>
+			<p>Rating: TBD (out of 5)</p>
+		</div>
+	<%
+		}
+	%>
+
+	</body>
+
+</html>
